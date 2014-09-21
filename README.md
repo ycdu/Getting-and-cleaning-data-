@@ -22,7 +22,7 @@ Run the R script `run_analysis.r`. It will carry out the following steps automat
 4. Merge all the test and train data for subject, x and y and combine them into one data set
 5. Extracts only the measurements on the mean and standard deviation i.e. extract those features which contain the word mean() or std(). Note that meanfreq() is not extracted as it is different from mean(). 
 6. Match the activity code in the derived data set with activity names.
-7. Rename the columns of the data set with descriptive variable names. For the features columns, abbreviations such as "t"" and "f"" are replaced with "time"" and "frequency"" to make them more meaningful. The "()" and "-" are also removed. However, here I restrain from expanding the more obvious abbreviation e.g. acc so that the column names won't be too long.
+7. Rename the columns of the data set with descriptive variable names. For the features columns, abbreviations such as "t" and "f" are replaced with "time" and "frequency" to make them more meaningful. The "()" and "-" are also removed. However, here I restrain from expanding the more obvious abbreviation e.g. acc so that the column names won't be too long.
 8. Create a tidy data set with the average of each variable for each activity and each subject.Here the variable refers to the 66 features. 
 9. Write the data to a file named `clean_data.txt` in your working directory
       
